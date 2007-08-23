@@ -68,7 +68,7 @@ rm -rf %buildroot
 
 %files -n %{libname}-static-devel
 %defattr(-,root,root)
-%doc COPYING README doc/library.dvi doc/structure.tex doc/test.txt doc/td*
+%doc COPYING README doc/structure.tex doc/test.txt doc/td*
 %{_libdir}/*
 %{_includedir}/*
 
