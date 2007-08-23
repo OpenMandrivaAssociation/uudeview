@@ -1,6 +1,6 @@
 %define name    uudeview
 %define version 0.5.20
-%define release %mkrel 5
+%define release %mkrel 6
 
 %define libname %mklibname uu 
 
