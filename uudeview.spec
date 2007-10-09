@@ -24,7 +24,7 @@ It can do automatic splitting of large encodes and automatic posting.
 A must for anyone serious encoding/decoding.
 
 %package -n     %{libname}-static-devel
-Summary:        Static library for developing apps which will use %{name}.
+Summary:        Static library for developing apps which will use %{name}
 Group:          Development/C
 Provides:       libuu-static-devel = %{version}-%{release}
 Provides:       uu-static-devel = %{version}-%{release}
