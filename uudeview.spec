@@ -13,6 +13,7 @@ Source:         http://www.fpx.de/fp/Software/UUDeview/download/%{name}-%{versio
 Patch:		%{name}-%{version}-library.ltx.patch	
 URL:            http://www.fpx.de/fp/Software/UUDeview/
 Summary:        Help to transmit binary files over the internet
+BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildRequires:  tcl tcl-devel
 BuildRequires:	transfig
 
