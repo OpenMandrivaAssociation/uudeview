@@ -13,6 +13,7 @@ Summary:        Help to transmit binary files over the internet
 BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildRequires:  tcl-devel
 BuildRequires:	transfig
+BuildRequires:	tetex-latex
 
 %description
 Uudeview handles uuencoding, xxencoding, and base-64 encoding (MIME),
