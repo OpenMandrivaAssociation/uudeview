@@ -7,6 +7,7 @@ License:	GPLv2+
 Group:          File tools
 Source:         http://www.fpx.de/fp/Software/UUDeview/download/%{name}-%{version}.tar.bz2 
 Patch:		%{name}-%{version}-library.ltx.patch	
+Patch1:		uudeview-0.5.20-fix-str-fmt.patch
 URL:            http://www.fpx.de/fp/Software/UUDeview/
 Summary:        Help to transmit binary files over the internet
 BuildRoot:      %{_tmppath}/%{name}-buildroot
@@ -29,12 +30,12 @@ Provides:       uu-static-devel = %{version}-%{release}
 Static library for %{name}
 
 %prep
-
 %setup -q
 %patch -p0
+%patch1 -p0
 
 %build
-CFLAGS="%{optflags}" LDFLAGS=-s ./configure --prefix=%{_prefix} --libdir=%{_libdir}
+CFLAGS="%{optflags}" LDFLAGS="%ldflags" ./configure --prefix=%{_prefix} --libdir=%{_libdir}
 
 %make
 ( cd doc/; make )
