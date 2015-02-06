@@ -2,7 +2,7 @@
 
 Name:           uudeview
 Version:        0.5.20
-Release:        13
+Release:        14
 License:	    GPLv2+
 Group:          File tools
 Source:         http://www.fpx.de/fp/Software/UUDeview/download/%{name}-%{version}.tar.bz2 
