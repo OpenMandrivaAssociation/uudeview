@@ -8,7 +8,7 @@ Group:          File tools
 Source:         http://www.fpx.de/fp/Software/UUDeview/download/%{name}-%{version}.tar.bz2 
 Patch:		    %{name}-%{version}-library.ltx.patch	
 Patch1:		    uudeview-0.5.20-fix-str-fmt.patch
-URL:            http://www.fpx.de/fp/Software/UUDeview/
+URL:            https://www.fpx.de/fp/Software/UUDeview/
 Summary:        Help to transmit binary files over the internet
 BuildRequires:  tcl-devel
 BuildRequires:	transfig
